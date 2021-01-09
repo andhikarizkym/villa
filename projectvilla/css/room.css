@@ -1,0 +1,34 @@
+/* Navbar */
+nav {
+    background-color: #d0e8f2;
+}
+
+
+/* Mengatur Ukuran page penjelasan lengkap Room */
+.layout0 {
+    margin-top: 10%;
+}
+.layout0 h2 {
+    text-align: center;
+}
+.layout0 p {
+    margin-top: 5%;
+}
+.layout0 button {
+    width: 10%;
+    height: 10%;
+    margin-left: 29%;
+    border: none;
+    border-radius: 25px;
+}
+/* Akhir page penjelasan lengkap Room */
+
+
+.footer {
+    float: left;
+    height: 50px;
+    width: 1024px;
+    text-align: center;
+    background-color: #bbe2e069;
+    padding-top: 3%;
+}

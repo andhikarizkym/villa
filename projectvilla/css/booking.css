@@ -1,0 +1,17 @@
+nav {
+    background-color: #d0e8f2;
+}
+
+.layout1 {
+    margin: auto;
+}
+
+
+.footer {
+    float: left;
+    height: 50px;
+    width: 1024px;
+    text-align: center;
+    background-color: #bbe2e069;
+    padding-top: 3%;
+}

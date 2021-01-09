@@ -1,0 +1,41 @@
+.layout {
+    float: none;
+    height: auto;
+    width: 1024px;
+}
+
+.header {
+    float: left;
+    text-align: center;
+    height: 200px;
+    width: 1024px;
+    background-color: grey;
+    color: #ffffff;
+}
+
+.kolom1 {
+    line-height: 30px;
+    float: left;
+    height: 500px;
+    width: 300px;
+    background-color: #ffffff;
+}
+
+.kolom2 {
+    float: left;
+    height: 500px;
+    width: 724px;
+    background-color: #ffffff
+}
+
+#content {
+    text-align: center;
+}
+
+.footer {
+    float: left;
+    height: 500px;
+    width: 1024px;
+    text-align: center;
+    background-color: grey;
+}

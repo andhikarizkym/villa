@@ -1,0 +1,51 @@
+/* Navbar */
+nav {
+    background-color: #d0e8f2;
+}
+
+/* Judul dan Deskripsi Villa */
+.layout0 {
+    height: 200px;
+}
+
+.layout0 img {
+margin-right: 2%;
+}
+.layout0 p {
+    margin-top: 5%;
+}
+/* Akhir Judul dan Deskripsi */
+
+
+
+/* Archana Room */
+.layout1 {
+    height: 400px;
+}
+.layout1 img {
+margin-left: 2%;
+margin-right: 5%;
+}
+.layout1 h3 {
+    text-align: center;
+}
+.layout1 p {
+    margin-top: 5%;
+}
+.layout1 button {
+    width: 10%;
+    height: 10%;
+    border: black;
+    margin-left: 29%;
+    /* background-color: tomato; */
+}
+.layout1 a {
+    color: black;
+}
+/* Akhir Archana Room */
+
+
+footer {
+    background-color: #d0e8f2; 
+    margin-top: 5%;
+}

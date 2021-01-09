@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+*
+
+/* Navbar */
+nav {
+    background-color: #d0e8f2;
+}
+/* Akhir Navbar */
+
+
+/* Content */
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background: url(img/bg\ lofi.jpg);
+    background-size: cover;
+}
+
+/* Awal Box Contact */
+.box
+{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    margin-top: 5%;
+    background: #fff;
+    transition: 0.5s;
+}
+
+/* Hover itu yang kalo misalnya kita arahin cursor ke box dia jadi besar */
+.box:hover
+{
+    height: 400px;
+}
+
+/* Mengatur ukuran dan jarak Box */
+.box .imgBx
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;    
+}
+
+
+.box .imgBx img
+{
+    max-width: 100%;
+    opacity: 0.1;
+    transition: 0.5;
+
+}
+
+.box:hover .imgBx img
+{
+    opacity: 1;
+}
+
+/* Mengatur ukuran saat cursor mengarah ke Box */
+.box:after
+{
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: rgb(255, 255, 255);
+    z-index: -1;
+    filter: blur(40px);
+}
+
+/* Mengubah background Box */
+.box:before,
+.box:after
+{
+    background: #d0e8f2;
+    /* background: linear-gradient(235deg,#89ff00,#010615,#00bcd4); */
+}
+
+.box:nth-child(2):before,
+.box:nth-child(2):after
+{
+    background: #d0e8f2;
+    /* background: linear-gradient(235deg,#ff005e,#010615,#fbff00); */
+}
+
+.box:nth-child(3):before,
+.box:nth-child(3):after
+{
+    background: #d0e8f2;
+    /* background: linear-gradient(235deg,#772aff,#010615,#2196f3); */
+}
+
+/* Isi Tulisan di dalam Box */
+.box .content
+{
+    position: absolute;
+    margin-top: 5%;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    height: 90px;
+    background: rgba(0,0,0,0,4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;   
+}
+.box:hover .content
+{
+    opacity: 1;
+}
+
+.box .content h2
+{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1px;
+
+}
+
+.box .content h2 span
+{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
